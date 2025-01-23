@@ -11,7 +11,7 @@ Just some code examples to use this library:
         var handle = threadManager.StartThreadIf(
             someBool,
             async() => await Work1(),
-            "returned false"
+            "returned false" // message if fails. 
         );
         
         // spinning up single task (also returns a handle if needed). 
