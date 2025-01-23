@@ -32,4 +32,6 @@ Refer to ```Example.cs``` for more info.
 
 Easily helps you spin up tasks and can spin them down, you can store the handles and dipose them using the ```DisposeHandle(handle)``` method within ThreadManager. 
 
+You may also DI the ThreadManager into your project. 
+
 
